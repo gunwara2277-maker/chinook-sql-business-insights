@@ -69,3 +69,69 @@ All SQL queries are stored in the `queries/` folder.
 - Useful for workload distribution and support analysis.
 
 **File:** `06_customers_per_employee.sql`
+
+## Key Business Insights
+
+### 1) Top Countries by Invoice Count
+- **USA** has the highest number of invoices, followed by **Canada** and **France**.
+- This suggests sales volume is concentrated in a few core markets (North America + parts of Europe).
+
+**Why it matters**
+- Prioritize retention and always-on campaigns in the top market (USA).
+- Consider localized promotions for secondary high-volume countries (e.g., Canada, France, Brazil).
+
+---
+
+### 2) Revenue by Country
+- **USA** generates the highest total revenue, followed by **Canada** (consistent with invoice volume).
+- Some countries may generate strong revenue despite fewer invoices, implying higher average order value.
+
+**Why it matters**
+- Evaluate **Average Revenue per Invoice** alongside volume to avoid “volume-only” decisions.
+- Enable country-level strategies (pricing, bundles, regional promotions).
+
+---
+
+### 3) Purchase Frequency per Customer
+- Many customers purchase multiple times (top customers show **~6–7 purchases**), indicating repeat behavior rather than one-time buying.
+
+**Why it matters**
+- Strong signal for loyalty/retention programs (e.g., rewards, personalized recommendations).
+- Supports lifecycle marketing (repeat purchase nudges, reactivation campaigns).
+
+---
+
+### 4) Top Customers by Revenue
+- Revenue is concentrated among a small group of high-value customers (Top 10 customers spend significantly above average).
+
+**Why it matters**
+- Protect and retain high-value customers (VIP care, proactive support).
+- Losing a few top customers can materially impact total revenue (Pareto-like pattern).
+
+---
+
+### 5) Invoice Value Segmentation (A / AA / AAA)
+- **AAA (high-value invoices)** are fewer in count but contribute the most revenue.
+- **A (low-value invoices)** are the most frequent but contribute lower revenue per invoice.
+
+**Why it matters**
+- Revenue growth is driven by increasing invoice value (upsell/cross-sell), not just increasing volume.
+- Use segmentation to design pricing and promotion tactics to move customers **A → AA → AAA**.
+
+---
+
+### 6) Customers per Employee
+- Customer workload is not evenly distributed across employees (some employees handle many customers while others handle few/none).
+
+**Why it matters**
+- Highlights opportunities to rebalance assignment for operational efficiency.
+- Useful for workload planning, performance tracking, and staffing decisions.
+
+---
+
+## Overall Value Delivered
+This project demonstrates the ability to translate raw transactional data into actionable business insights across:
+- **Market performance** (country-level volume & revenue)
+- **Customer value** (repeat purchase behavior & top spenders)
+- **Revenue mix** (invoice segmentation)
+- **Operations** (support workload distribution)
