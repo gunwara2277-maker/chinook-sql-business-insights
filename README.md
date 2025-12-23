@@ -69,8 +69,3 @@ All SQL queries are stored in the `queries/` folder.
 - Useful for workload distribution and support analysis.
 
 **File:** `06_customers_per_employee.sql`
-
----
-
-## Project Structure
-
