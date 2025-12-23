@@ -3,7 +3,7 @@
 This project is a SQL-based business analysis using the **Chinook sample database**.  
 The objective is to demonstrate practical SQL skills by answering real-world business questions related to sales, customers, and employees.
 
-The project focuses on **data analysis and business insights**, rather than complex SQL syntax, making it suitable for roles such as **Product Manager (Tech)**, **Business Analyst**(Junior level)**.
+The project focuses on **data analysis and business insights**, rather than complex SQL syntax, making it suitable for roles such as Product Manager (Tech), Business Analyst.
 
 ---
 
